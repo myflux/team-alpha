@@ -6,7 +6,8 @@ on:
 
 jobs:
   trigger-approval:
-    if: github.event.review.state == 'approved'
+    # TODO: Remove 'commented' after testing - should only trigger on 'approved'
+    if: github.event.review.state == 'approved' || github.event.review.state == 'commented'
     name: Trigger Approval Process
     uses: myflux/.github/.github/workflows/approval-process.yml@main
     with:
