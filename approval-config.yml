@@ -1,7 +1,7 @@
 team_name: "Team Alpha"
 
 # Stage 2 — all three must approve
-tech_lead:     "@scoheb"
+team_lead:     "@scoheb"
 product_owner: "@scoheb"
 eng_manager:   "@scoheb"
 
