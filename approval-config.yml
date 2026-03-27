@@ -1,0 +1,12 @@
+team_name: "Team Alpha"
+
+# Stage 2 — all three must approve
+tech_lead:     "@scoheb"
+product_owner: "@scoheb"
+eng_manager:   "@scoheb"
+
+# Stage 3
+architect:     "@scoheb"
+
+# Stage 4
+director:      "@scoheb"
