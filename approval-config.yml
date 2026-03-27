@@ -6,7 +6,9 @@ product_owner: "@scoheb"
 eng_manager:   "@scoheb"
 
 # Stage 3
-architect:     "@scoheb"
+architect:     
+ - "@scoheb"
+ - "@scoheb"
 
 # Stage 4
 director:      "@scoheb"
